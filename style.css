@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+section {
+    display: flex;
+    align-content: center;
+    height: 60%;
+    width: 100%;
+    background-image: url('https://t3.ftcdn.net/jpg/02/07/15/44/360_F_207154497_atOiud0GzT2AXRozfh6grud0NKwKEfff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+section > article {
+    display: grid;
+    height: 70%;
+    margin: auto;
+    place-items: center;
+}
+
+section > article > img {
+    width: 20%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
